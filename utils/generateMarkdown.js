@@ -1,5 +1,5 @@
-//  returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//  creates a license badge based on which license is passed in
+
 function renderLicenseBadge(license) {
   switch (license) {
     case "IBM":
@@ -25,9 +25,30 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+//  returns the license link
+
+function renderLicenseLink(license) {
+  switch (license) {
+    case "IBM":
+      return "https://www.ibm.com/about/software-licensing/us-en/licensing/license_information_documents";
+    case "ISC":
+      return "https://opensource.org/license/isc-license-txt/";
+    case "Apache":
+      return "https://www.apache.org/licenses/LICENSE-2.0" ;
+    case "MIT":
+      return "https://opensource.org/license/mit/";
+    case "BSD":
+      return "https://opensource.org/license/bsd-3-clause/";
+    case "GNU":
+      return "https://www.gnu.org/licenses/gpl-3.0.en.html";
+    case "Boost":
+      return "https://www.boost.org/users/license.html";
+    case "Mozilla":
+      return "https://www.mozilla.org/en-US/MPL/";
+    case "None":
+      return "";
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
