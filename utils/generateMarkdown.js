@@ -82,6 +82,27 @@ function generateMarkdown(data) {
   var licenseText = renderLicenseSection(data.license);
   var licenseLink= renderLicenseLink(data.license);
   return `# ${data.title}
+  ${data.description}
+ 
+  ${licenseBadge}
+
+  ## Table of Contents
+
+    * [Installaion](#installation)
+    * [Usage](#usage)
+    * [Contribution](#contributionGuidelines)
+    * [Testing](#testing)
+    * [License](#license)
+
+
+<a name="installation"/>
+## Installation
+${data.installation}
+
+<a name= "usage"/>
+
+## Usage
+${data.usage}
 
 `;
 }
