@@ -39,7 +39,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Please select a license for your project.",
-        choices: ["IBM" , "ISC", "Apache", "MIT", "GPL", "BSD", "GNU","Boost","Mozilla"],
+        choices: ["IBM" , "ISC", "Apache", "MIT", "BSD", "GNU","Boost","Mozilla"],
     },
     {
         type: "input",
@@ -55,7 +55,7 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
+// function that writes the README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), function(err) {
         if (err) {
@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
 }
 
 
-// TODO: Create a function to initialize app
+// function that initializes the app
 function init() {
     inquirer.prompt(questions).then(function (response){
         console.log(response);
