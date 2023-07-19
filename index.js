@@ -1,7 +1,7 @@
 // packages needed for this application
 var inquirer = require('inquirer');
 var fs = require('fs');
-var generateMarkdown= require("./utils/generateMarkdown.js");
+var generateMarkdown= require("./utils/generateMarkdown");
 
 
 const questions = [
@@ -58,7 +58,7 @@ const questions = [
         type:"input",
         name:"emailAddress",
         message:"Please enter your email address."
-    }
+    },
 
 ];
 
@@ -78,7 +78,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(function (response){
         console.log(response);
-        writeToFile(`${response.title}.md`,response);
+        writeToFile(`README.md`,response);
     })
 }
 

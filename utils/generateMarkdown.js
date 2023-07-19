@@ -1,6 +1,5 @@
 // packages needed 
  var dayjs= require("dayjs");
-
  var year= dayjs().format("YYYY");
  var userName= "";
 
@@ -55,6 +54,7 @@ function renderLicenseLink(license) {
       return "";
     default :
       return "";
+  }
 
 }
 
@@ -91,7 +91,7 @@ function generateMarkdown(data) {
   var licenseBadge= renderLicenseBadge(data.license);
   var licenseText = renderLicenseSection(data.license);
   var licenseLink= renderLicenseLink(data.license);
-   userName= data.userName;
+  userName= data.userName;
   
    return `# ${data.title}
   ${data.description}
@@ -108,45 +108,46 @@ function generateMarkdown(data) {
     * [Question](#question)
 
 
-<a name="installation"/>
-## Installation
+  <a name="installation"</a>
+  ## Installation
 
-${data.installation}
+  ${data.installation}
 
-<a name= "usage"/>
+  <a name= "usage"</a>
 
-## Usage
+  ## Usage
 
-${data.usage}
-<a name="license"/>
+  ${data.usage}
+  <a name="license"</a>
 
-## contribution 
+  ## contribution 
 
-${data.contributionGuidelines}
+  ${data.contributionGuidelines}
 
-<a name= "testing"/>
+  <a name="testing"</a>
 
-## Testing 
+  ## Testing 
 
-${data.testing}
+  ${data.testing}
 
-<a name="license"/>
+  <a name="license"</a>
 
-## License 
+  ## License 
 
-${licenseText}
+  ${licenseText}
 
-[If you would like to know more about licensing information here's a link for more details:] ${licenseLink}
+  If you would like to know more about licensing information here's a link for more details: ${licenseLink}
 
-<a name="questions"/>
+  <a name="questions"</a>
 
-## Questions 
+  ## Questions 
 
-Take a look at my projects here's a link to my GitHub:(https://github.com/youssefkaroui)
+  Take a look at my projects here's a link to my GitHub:(https://github.com/youssefkaroui)
 
-Email me if you have any questions (mailto:${data.emailAddress})
+  Email me if you have any questions (mailto:${data.emailAddress})
 
-`;
-}
+  `;
+};
 
 module.exports = generateMarkdown;
+

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.9",
+    "export": "^0.1.337",
     "fs": "^0.0.1-security",
     "inquirer": "^8.2.4"
   }
