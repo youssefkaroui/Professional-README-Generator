@@ -5,6 +5,13 @@ var generateMarkdown= require("./utils/generateMarkdown.js");
 
 
 const questions = [
+    
+    {
+        type:"input",
+        name:"userName",
+        message:"Please enter your first and last name"
+
+    },
     {
         type:"input",
         name:"title",
