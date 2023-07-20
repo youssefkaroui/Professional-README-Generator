@@ -86,7 +86,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// generates markdown for README
 function generateMarkdown(data) {
 
   userName= data.userName;
@@ -102,12 +102,12 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contribution](#contributionGuidelines)
-    - [Testing](#testing)
-    - [License](#license)
-    - [Questions](#questions)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contributionGuidelines)
+  - [Testing](#testing)
+  - [License](#license)
+  - [Questions](#questions)
 
 
   <a name="installation"></a>
@@ -146,7 +146,7 @@ function generateMarkdown(data) {
 
   Take a look at my projects here's a link to my GitHub:(https://github.com/youssefkaroui)
 
-  Email me if you have any questions (mailto:${data.emailAddress})
+  Email me if you have any questions (${data.emailAddress})
 
   `;
 };

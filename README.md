@@ -1,7 +1,7 @@
-# eveve
-  beberberb
+# README generator
+  b56b6b2
  
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
   ## Table of Contents
 
@@ -10,38 +10,38 @@
   - [Contribution](#contributionGuidelines)
   - [Testing](#testing)
   - [License](#license)
-  - [Question](#question)
+  - [Questions](#questions)
 
 
   <a name="installation"></a>
   ## Installation
 
-  erb
+  b66b4
 
   <a name= "usage"></a>
 
   ## Usage
 
-  erbreberber
+  b4g4g411
   <a name="license"></a>
 
   ## contribution 
 
-  ber
+  g4g4g
 
   <a name="testing"></a>
 
   ## Testing 
 
-  berb
+  4gg41
 
   <a name="license"></a>
 
   ## License 
 
-     Copyright 2023 cree    LI documents set out the detailed licensing terms that apply to individual programs. They are available for programs released after May 1999 and a new document is created for each release (or update) of an IBM program. LI documents are normally provided with IBM software in hardcopy or softcopy form. Acceptance of the terms of the LI document is necessary prior to installation or first use of the software.
+     Copyright 2023 Youssef Karoui    Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-  If you would like to know more about licensing information here's a link for more details: https://www.ibm.com/about/software-licensing/us-en/licensing/license_information_documents
+  If you would like to know more about licensing information here's a link for more details: https://opensource.org/license/bsd-3-clause/
 
   <a name="questions"></a>
 
@@ -49,6 +49,6 @@
 
   Take a look at my projects here's a link to my GitHub:(https://github.com/youssefkaroui)
 
-  Email me if you have any questions (mailto:rbreb)
+  Email me if you have any questions (g14g4g)
 
   
