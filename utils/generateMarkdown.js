@@ -24,7 +24,7 @@ function renderLicenseBadge(license) {
     case "Mozilla":
       return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
     case "None":
-      return "";
+      return "No license provided for this project.";
     
   }
 }
@@ -50,7 +50,7 @@ function renderLicenseLink(license) {
     case "Mozilla":
       return "https://www.mozilla.org/en-US/foundation/licensing/";
     case "None":
-      return "";
+      return "N/A";
     
   }
 
@@ -78,20 +78,10 @@ function renderLicenseSection(license) {
     case "Mozilla":
       return `   Copyright ${year} ${userName}    Most Mozilla software projects use the MPL, but some have different terms. Detailed information on the licensing of existing code can be found by inspecting its license headers, or by visiting the license information page in the relevant Mozilla software.`;
     case "None":
-      return "";
+      return "No License provided for this project";
     
 
   }
-}
-//function that handles the license choice 
-
-function renderLicenseBadge (license) {
-  if (license==="None") {
-    return ""
-
-  }
-  else 
-
 }
 
 // generates markdown for README
@@ -146,15 +136,15 @@ function generateMarkdown(data) {
 
   ${licenseText}
 
-  If you would like to know more about licensing information here's a link for more details: ${licenseLink}
+  [If you would like to know more about licensing information here's a link for more details:] (${licenseLink})
 
   <a name="questions"></a>
 
   ## Questions 
 
-  Take a look at my projects here's a link to my GitHub:(https://github.com/youssefkaroui)
+  [Email me if you have any questions](mailto:${data.emailAddress})
 
-  Email me if you have any questions (${data.emailAddress})
+[Review my other projects on GitHub.](https://www.github.com/youssefkaroui)
 
   `;
 };
