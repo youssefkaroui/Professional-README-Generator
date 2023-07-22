@@ -30,8 +30,9 @@
 
   ## Demo 
 
-  [Here's a link to a demo video of this application.](https://drive.google.com/file/d/1dpD2JuMxbLDZj8cQ07dGkdWtgofnGJzg/view?usp=drive_link)
-
+  [Here's a link to a demo video of this application.](https://drive.google.com/file/d/1dpD2JuMxbLDZj8cQ07dGkdWtgofnGJzg/view?usp=sharing)
+  
+  
   ## Contribution 
 
   Please create an issue on the Githhub repository for this application 
