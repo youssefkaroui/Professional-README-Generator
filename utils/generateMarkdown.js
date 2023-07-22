@@ -102,7 +102,7 @@ function generateMarkdown(data) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribution](#contributionGuidelines)
+  - [Contribution](#contribution)
   - [Testing](#testing)
   - [License](#license)
   - [Questions](#questions)
@@ -118,11 +118,11 @@ function generateMarkdown(data) {
   ## Usage
 
   ${data.usage}
-  <a name="contributionGuidelines"></a>
+  <a name="contribution"></a>
 
   ## Contribution 
 
-  ${data.contributionGuidelines}
+  ${data.contribution}
 
   <a name="testing"></a>
 
@@ -136,7 +136,7 @@ function generateMarkdown(data) {
 
   ${licenseText}
 
-  [If you would like to know more about licensing information here's a link for more details:] (${licenseLink})
+  If you would like to know more about licensing information here's a link for more details: ${licenseLink}
 
   <a name="questions"></a>
 
