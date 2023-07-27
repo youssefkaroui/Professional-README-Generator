@@ -2,6 +2,7 @@
  var dayjs= require("dayjs");
  var year= dayjs().format("YYYY");
  var userName= "";
+ var githubusername="";
 
 //  creates a license badge based on which license is passed in
 
@@ -88,6 +89,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
 
   userName= data.userName;
+  githubusername= data.Githubusername
   var licenseBadge= renderLicenseBadge(data.license);
   var licenseText = renderLicenseSection(data.license);
   var licenseLink= renderLicenseLink(data.license);
@@ -144,7 +146,7 @@ function generateMarkdown(data) {
 
   [Email me if you have any questions](mailto:${data.emailAddress})
 
-[Review my other projects on GitHub.](https://www.github.com/youssefkaroui)
+[Review my other projects on GitHub.](https://www.github.com/${githubusername})
 
   `;
 };
